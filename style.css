@@ -8,7 +8,7 @@
 
 .mainContainer {
     padding: 40px 100px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 /********************* Navbar Section *********************/
@@ -38,3 +38,49 @@ a ~ a {
     margin-left: 40px;
     box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
 }
+
+/********************* Hero Section *********************/
+
+.heroSection {
+    margin: 100px 0;
+}
+
+.heroCard {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 150px 0;
+}
+
+.middle {
+    padding-left: 100px ;
+}
+
+.heroCard > img {
+    min-width: 40vw;
+}
+
+.heroCard h1 {
+    font-size: 52px;
+}
+
+.desc {
+    font-size: 15px;
+    width: 70%;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.heroSection button {
+    color: #ffffff;
+    border: 1px solid #369ac8;
+    background-image: linear-gradient(to right bottom, #66bbe3, #24aaee, #0097f7, #0081fb, #3465f6);
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 40px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+/********************* Service Section *********************/
