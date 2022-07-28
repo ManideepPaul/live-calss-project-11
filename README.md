@@ -5,7 +5,9 @@
 
 Creating the HTML layout is the challenging part for me in this project.
 
-- It took me around **2 hour 30 min** max to complete the project.
+Setting pattern in background in `register section` making it translucent using another layer of background.
+
+- It took me around **5 hour** max to complete the project.
 
 <br>
 
