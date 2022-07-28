@@ -84,3 +84,32 @@ a ~ a {
 }
 
 /********************* Service Section *********************/
+
+.serviceSection > .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.serviceSection > .text > h1 {
+    font-size: 48px;
+}
+
+.serviceSection > .text > .desc {
+    width: 50%;
+    color: #808080;
+}
+
+.serviceGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 60px;
+    margin-bottom: 150px;
+}
+
+.gItem > h4 {
+    font-size: 24px;
+    margin: 20px 0;
+}
