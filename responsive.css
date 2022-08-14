@@ -1,0 +1,71 @@
+@media screen and (max-width: 1400px) {
+  /********************* Navbar Section *********************/
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  /********************* Hero Section *********************/
+
+  .heroSection {
+    margin: 50px 0;
+    padding: 0 20px;
+  }
+
+  /********************* Service Section *********************/
+
+  .serviceSection {
+    padding: 0 20px;
+  }
+
+  /********************* Pricing Section *********************/
+
+.pricingSection {
+    padding: 80px 20px 50px 20px;
+}
+
+/********************* Feedback Section *********************/
+
+.feedback {
+    padding: 100px 20px;
+}
+
+/********************* Register Section *********************/
+
+.wrapper {
+    padding: 80px 20px;
+}
+
+/********************* Footer Section *********************/
+
+footer {
+    padding: 100px 20px 20px 20px;
+}
+}
+
+@media screen and (max-width: 1120px) {
+  /********************* Navbar Section *********************/
+
+  .navbar > .logo {
+    width: 100px;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+
+  .navRight {
+    display: none;
+  }
+
+  /********************* Hero Section *********************/
+
+  .heroCard > .text {
+    margin: 20px 0;
+    max-width: 55vw;
+  }
+
+  .heroCard > img {
+    max-width: 35vw;
+  }
+}
