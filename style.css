@@ -50,17 +50,32 @@ a ~ a {
 .heroCard {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    align-items: flex-start;
+    gap: 20px;
+    align-items: center;
     margin: 150px 0;
+    flex-wrap: wrap;
+}
+
+.heroCard > .text {
+    margin: 20px 0;
+    max-width: 55vw;
 }
 
 .middle {
-    padding-left: 100px ;
+    text-align: end;
+}
+
+.middle > .desc {
+    text-align: end;
+    margin: 30px 0 30px auto;
+}
+
+.testing {
+    justify-content: space-between;
 }
 
 .heroCard > img {
-    min-width: 40vw;
+    max-width: 28vw;
 }
 
 .heroCard h1 {
@@ -94,6 +109,8 @@ a ~ a {
     justify-content: space-between;
     align-items: center;
     margin: 60px 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .serviceSection > .text > h1 {
@@ -105,12 +122,17 @@ a ~ a {
     color: #808080;
 }
 
-.serviceGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 80px;
-    column-gap: 60px;
+.serviceG {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
     margin-bottom: 150px;
+}
+
+.gItem {
+    width: 25vw;
+    margin: 15px 0;
 }
 
 .gItem > h4 {
@@ -137,6 +159,7 @@ a ~ a {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cards > .card {
@@ -225,6 +248,7 @@ a ~ a {
     padding: 10px 25px;
     font-size: 16px;
     border-radius: 6px;
+    margin-bottom: 25px;
     box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
 }
 
