@@ -160,6 +160,11 @@
 
   /********************* Feedback Section *********************/
 
+  .feedbackGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
   .feedback > .text > h1 {
     font-size: 40px;
   }
